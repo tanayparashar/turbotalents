@@ -1,0 +1,47 @@
+.headerBGDiv{
+    background-image: url(../backgroundimg.png) !important; 
+    min-width: 100%;
+    height: 30vh;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+    padding: 5%;
+}
+.bannerUser{
+  background-image: url(../img/banknerImage1.jpg) !important;
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(179, 166, 166);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: block;
+    background-color: rgb(180, 179, 179);
+    max-height: 5px;
+    max-width: 2x;
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(207, 206, 206);
+    border-radius: 5px;
+  }
+#parent-container-main{
+
+    overflow: hidden;
+}
